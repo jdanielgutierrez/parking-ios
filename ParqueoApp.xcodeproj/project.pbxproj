@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7592A03B1B3E9118005F7FDC /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592A03A1B3E9118005F7FDC /* MyAnnotation.swift */; };
+		75A79D391B3F42DA00674E1E /* simulate.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 75A79D381B3F42DA00674E1E /* simulate.gpx */; };
+		75DD34701B1D602C008BBCB5 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD346F1B1D602C008BBCB5 /* FloatLabelTextField.swift */; };
+		75DD34721B1D6059008BBCB5 /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD34711B1D6059008BBCB5 /* FloatLabelTextView.swift */; };
+		75DDA06C1B3C2E1400246483 /* LocMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDA06B1B3C2E1400246483 /* LocMapViewController.swift */; };
+		75DF3BC51B03D6810051C447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3BC41B03D6810051C447 /* AppDelegate.swift */; };
+		75DF3BC81B03D6810051C447 /* ParqueoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3BC61B03D6810051C447 /* ParqueoApp.xcdatamodeld */; };
+		75DF3BCA1B03D6810051C447 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3BC91B03D6810051C447 /* ItemViewController.swift */; };
+		75DF3BCD1B03D6810051C447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DF3BCB1B03D6810051C447 /* Main.storyboard */; };
+		75DF3BD21B03D6810051C447 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75DF3BD01B03D6810051C447 /* LaunchScreen.xib */; };
+		75DF3BDE1B03D6810051C447 /* ParqueoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3BDD1B03D6810051C447 /* ParqueoAppTests.swift */; };
+		75DF3BEB1B03DF580051C447 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3BEA1B03DF580051C447 /* Parking.swift */; };
+		75DF3BED1B03E7740051C447 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF3BEC1B03E7740051C447 /* ListTableViewController.swift */; };
+		75DF657E1B0FD15600A446DA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF657D1B0FD15600A446DA /* MapViewController.swift */; };
+		75E407A41B14F01B0027CB30 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E407A31B14F01B0027CB30 /* Location.swift */; };
+		75E83A4E1B3F7C3400D17BB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E83A4D1B3F7C3400D17BB2 /* Images.xcassets */; };
+		75E83A521B3FDD6900D17BB2 /* parking-icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E83A4F1B3FDD6800D17BB2 /* parking-icon-1.png */; };
+		75E83A531B3FDD6900D17BB2 /* parking-icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E83A501B3FDD6800D17BB2 /* parking-icon-3.png */; };
+		75E83A541B3FDD6900D17BB2 /* parking-icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E83A511B3FDD6800D17BB2 /* parking-icon-2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75DF3BD81B03D6810051C447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DF3BB71B03D6810051C447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DF3BBE1B03D6810051C447;
+			remoteInfo = ParqueoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7592A03A1B3E9118005F7FDC /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		75A79D381B3F42DA00674E1E /* simulate.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = simulate.gpx; path = ParqueoApp/simulate.gpx; sourceTree = "<group>"; };
+		75DD346F1B1D602C008BBCB5 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		75DD34711B1D6059008BBCB5 /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		75DDA06B1B3C2E1400246483 /* LocMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocMapViewController.swift; sourceTree = "<group>"; };
+		75DF3BBF1B03D6810051C447 /* ParqueoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParqueoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DF3BC31B03D6810051C447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DF3BC41B03D6810051C447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75DF3BC71B03D6810051C447 /* ParqueoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParqueoApp.xcdatamodel; sourceTree = "<group>"; };
+		75DF3BC91B03D6810051C447 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		75DF3BCC1B03D6810051C447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75DF3BD11B03D6810051C447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75DF3BD71B03D6810051C447 /* ParqueoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParqueoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DF3BDC1B03D6810051C447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DF3BDD1B03D6810051C447 /* ParqueoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParqueoAppTests.swift; sourceTree = "<group>"; };
+		75DF3BEA1B03DF580051C447 /* Parking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		75DF3BEC1B03E7740051C447 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		75DF657D1B0FD15600A446DA /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		75E407A31B14F01B0027CB30 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		75E83A4D1B3F7C3400D17BB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75E83A4F1B3FDD6800D17BB2 /* parking-icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parking-icon-1.png"; sourceTree = "<group>"; };
+		75E83A501B3FDD6800D17BB2 /* parking-icon-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parking-icon-3.png"; sourceTree = "<group>"; };
+		75E83A511B3FDD6800D17BB2 /* parking-icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parking-icon-2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75DF3BBC1B03D6810051C447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DF3BD41B03D6810051C447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75DD346E1B1D5EB8008BBCB5 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				75DD346F1B1D602C008BBCB5 /* FloatLabelTextField.swift */,
+				75DD34711B1D6059008BBCB5 /* FloatLabelTextView.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		75DF3BB61B03D6810051C447 = {
+			isa = PBXGroup;
+			children = (
+				75A79D381B3F42DA00674E1E /* simulate.gpx */,
+				75DF3BC11B03D6810051C447 /* ParqueoApp */,
+				75DF3BDA1B03D6810051C447 /* ParqueoAppTests */,
+				75DF3BC01B03D6810051C447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75DF3BC01B03D6810051C447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75DF3BBF1B03D6810051C447 /* ParqueoApp.app */,
+				75DF3BD71B03D6810051C447 /* ParqueoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75DF3BC11B03D6810051C447 /* ParqueoApp */ = {
+			isa = PBXGroup;
+			children = (
+				75DD346E1B1D5EB8008BBCB5 /* Controls */,
+				75DF3BE71B03D7E80051C447 /* Model */,
+				75DF3BC41B03D6810051C447 /* AppDelegate.swift */,
+				75DF3BEC1B03E7740051C447 /* ListTableViewController.swift */,
+				75DF3BC91B03D6810051C447 /* ItemViewController.swift */,
+				75DF657D1B0FD15600A446DA /* MapViewController.swift */,
+				75DDA06B1B3C2E1400246483 /* LocMapViewController.swift */,
+				7592A03A1B3E9118005F7FDC /* MyAnnotation.swift */,
+				75DF3BCB1B03D6810051C447 /* Main.storyboard */,
+				75E83A4D1B3F7C3400D17BB2 /* Images.xcassets */,
+				75DF3BD01B03D6810051C447 /* LaunchScreen.xib */,
+				75DF3BC61B03D6810051C447 /* ParqueoApp.xcdatamodeld */,
+				75DF3BC21B03D6810051C447 /* Supporting Files */,
+			);
+			path = ParqueoApp;
+			sourceTree = "<group>";
+		};
+		75DF3BC21B03D6810051C447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75E83A4F1B3FDD6800D17BB2 /* parking-icon-1.png */,
+				75E83A501B3FDD6800D17BB2 /* parking-icon-3.png */,
+				75E83A511B3FDD6800D17BB2 /* parking-icon-2.png */,
+				75DF3BC31B03D6810051C447 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75DF3BDA1B03D6810051C447 /* ParqueoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				75DF3BDD1B03D6810051C447 /* ParqueoAppTests.swift */,
+				75DF3BDB1B03D6810051C447 /* Supporting Files */,
+			);
+			path = ParqueoAppTests;
+			sourceTree = "<group>";
+		};
+		75DF3BDB1B03D6810051C447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75DF3BDC1B03D6810051C447 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75DF3BE71B03D7E80051C447 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75DF3BEA1B03DF580051C447 /* Parking.swift */,
+				75E407A31B14F01B0027CB30 /* Location.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75DF3BBE1B03D6810051C447 /* ParqueoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DF3BE11B03D6810051C447 /* Build configuration list for PBXNativeTarget "ParqueoApp" */;
+			buildPhases = (
+				75DF3BBB1B03D6810051C447 /* Sources */,
+				75DF3BBC1B03D6810051C447 /* Frameworks */,
+				75DF3BBD1B03D6810051C447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParqueoApp;
+			productName = ParqueoApp;
+			productReference = 75DF3BBF1B03D6810051C447 /* ParqueoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75DF3BD61B03D6810051C447 /* ParqueoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DF3BE41B03D6810051C447 /* Build configuration list for PBXNativeTarget "ParqueoAppTests" */;
+			buildPhases = (
+				75DF3BD31B03D6810051C447 /* Sources */,
+				75DF3BD41B03D6810051C447 /* Frameworks */,
+				75DF3BD51B03D6810051C447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DF3BD91B03D6810051C447 /* PBXTargetDependency */,
+			);
+			name = ParqueoAppTests;
+			productName = ParqueoAppTests;
+			productReference = 75DF3BD71B03D6810051C447 /* ParqueoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75DF3BB71B03D6810051C447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = internet;
+				TargetAttributes = {
+					75DF3BBE1B03D6810051C447 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					75DF3BD61B03D6810051C447 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 75DF3BBE1B03D6810051C447;
+					};
+				};
+			};
+			buildConfigurationList = 75DF3BBA1B03D6810051C447 /* Build configuration list for PBXProject "ParqueoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75DF3BB61B03D6810051C447;
+			productRefGroup = 75DF3BC01B03D6810051C447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75DF3BBE1B03D6810051C447 /* ParqueoApp */,
+				75DF3BD61B03D6810051C447 /* ParqueoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75DF3BBD1B03D6810051C447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DF3BCD1B03D6810051C447 /* Main.storyboard in Resources */,
+				75E83A531B3FDD6900D17BB2 /* parking-icon-3.png in Resources */,
+				75E83A521B3FDD6900D17BB2 /* parking-icon-1.png in Resources */,
+				75E83A4E1B3F7C3400D17BB2 /* Images.xcassets in Resources */,
+				75A79D391B3F42DA00674E1E /* simulate.gpx in Resources */,
+				75DF3BD21B03D6810051C447 /* LaunchScreen.xib in Resources */,
+				75E83A541B3FDD6900D17BB2 /* parking-icon-2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DF3BD51B03D6810051C447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75DF3BBB1B03D6810051C447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DDA06C1B3C2E1400246483 /* LocMapViewController.swift in Sources */,
+				7592A03B1B3E9118005F7FDC /* MyAnnotation.swift in Sources */,
+				75DF3BEB1B03DF580051C447 /* Parking.swift in Sources */,
+				75DF657E1B0FD15600A446DA /* MapViewController.swift in Sources */,
+				75DF3BCA1B03D6810051C447 /* ItemViewController.swift in Sources */,
+				75DD34721B1D6059008BBCB5 /* FloatLabelTextView.swift in Sources */,
+				75DD34701B1D602C008BBCB5 /* FloatLabelTextField.swift in Sources */,
+				75DF3BC51B03D6810051C447 /* AppDelegate.swift in Sources */,
+				75DF3BED1B03E7740051C447 /* ListTableViewController.swift in Sources */,
+				75DF3BC81B03D6810051C447 /* ParqueoApp.xcdatamodeld in Sources */,
+				75E407A41B14F01B0027CB30 /* Location.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DF3BD31B03D6810051C447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DF3BDE1B03D6810051C447 /* ParqueoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75DF3BD91B03D6810051C447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DF3BBE1B03D6810051C447 /* ParqueoApp */;
+			targetProxy = 75DF3BD81B03D6810051C447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75DF3BCB1B03D6810051C447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75DF3BCC1B03D6810051C447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75DF3BD01B03D6810051C447 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75DF3BD11B03D6810051C447 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75DF3BDF1B03D6810051C447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75DF3BE01B03D6810051C447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75DF3BE21B03D6810051C447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParqueoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75DF3BE31B03D6810051C447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParqueoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75DF3BE51B03D6810051C447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParqueoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParqueoApp.app/ParqueoApp";
+			};
+			name = Debug;
+		};
+		75DF3BE61B03D6810051C447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParqueoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParqueoApp.app/ParqueoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75DF3BBA1B03D6810051C447 /* Build configuration list for PBXProject "ParqueoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DF3BDF1B03D6810051C447 /* Debug */,
+				75DF3BE01B03D6810051C447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DF3BE11B03D6810051C447 /* Build configuration list for PBXNativeTarget "ParqueoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DF3BE21B03D6810051C447 /* Debug */,
+				75DF3BE31B03D6810051C447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DF3BE41B03D6810051C447 /* Build configuration list for PBXNativeTarget "ParqueoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DF3BE51B03D6810051C447 /* Debug */,
+				75DF3BE61B03D6810051C447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75DF3BC61B03D6810051C447 /* ParqueoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75DF3BC71B03D6810051C447 /* ParqueoApp.xcdatamodel */,
+			);
+			currentVersion = 75DF3BC71B03D6810051C447 /* ParqueoApp.xcdatamodel */;
+			path = ParqueoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75DF3BB71B03D6810051C447 /* Project object */;
+}
